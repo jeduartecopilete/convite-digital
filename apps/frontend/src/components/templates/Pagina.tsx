@@ -1,4 +1,4 @@
-import Logo from "./Logo";
+import LogoGrande from "./LogoGrande";
 
 export interface PaginaProps {
   children: React.ReactNode;
@@ -13,7 +13,7 @@ export default function Pagina(props: PaginaProps) {
         bg-[url('/background.png')] bg-cover
       "
     >
-    <Logo />
+    <LogoGrande />
       <main
         className={`
             flex-1 flex flex-col justify-center py-10

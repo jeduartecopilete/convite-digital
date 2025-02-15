@@ -12,7 +12,6 @@ export default function Logo() {
         <Link href="/" className={`${font.className} 
             flex items-center gap-2  
         `}>
-            <span>Logo</span>
             <Image src="/logo.svg" alt="Logo" width={50} height={50}/>
             <h1 className="flex flex-col text-lg items-center leading-5">
                 <div>CONVIT<span className='text-blue-500'>3</span></div>
