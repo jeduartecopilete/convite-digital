@@ -1,6 +1,4 @@
 import Logo from "@/components/templates/Logo";
-import Pagina from "@/components/templates/Pagina";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
